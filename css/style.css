@@ -5,8 +5,7 @@ a {text-decoration: none; cursor: pointer;  opacity: 0.9;}
 a:hover {opacity: 1;}
 
 /*HEADER */
-header {width: 100%; position: absolute; top: 0; left: 0; display: flex; justify-content: space-between; align-items: center;
-padding: 20px 50px;}
+header {width: 100%; position: absolute; top: 0; left: 0; display: flex; justify-content: space-between; align-items: center;}
 header img {width: 200px;}
 header nav {display: flex;}
 header li a {color: #191c03;}
@@ -52,5 +51,7 @@ justify-content: center; align-items: center; flex-direction: column; text-align
 .caracteristicas .grid li {padding: 0 30px; text-align: center;}
 .caracteristicas .grid li i {color: #c3c63b; font-size: 50px; margin-bottom: 30px;}
 .caracteristicas .grid li h4 {font-size: 1.5rem; color: #c3c63b; margin-bottom: 30px;}
-.caracteristicas .grid li p {}
-
+.caracteristicas .grid li p {color: #fff;}
+@media (max-width: 850px) {     
+    .conheca-o-hotel .grid {flex-direction: column;}
+}
